@@ -117,21 +117,26 @@ header.header p span{
     font-size: 4rem;
     text-transform: uppercase;
 }
-.upper .container .content .text p.second{
+.upper .container .content .text p.promotion{
     color: #fff;
-    /* border: 2px solid red; */
     width: 55rem;
     font-size: 1.5rem;
     line-height: 1.7;
     margin-top: 2rem;
     margin-bottom: 4rem;
+    
 }
-.upper .container .content .text p.second a{
+.upper .container .content .text p.promotion a{
     color: #3CF;
-    /* #ffc107 */
+    
 }
-.upper .container .content .text p.second a:hover{
+.upper .container .content .text p.promotion a:hover{
     color: #f5a425;
+}
+center-grid.promotion{
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
 
